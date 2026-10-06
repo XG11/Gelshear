@@ -1,4 +1,4 @@
-# gelshear: net 2-D shear from a marker GelSight
+# gelshear: a quick plug and play project on net 2-D shear from a marker GelSight
 
 Extracts net tangential (x-y) shear from marker motion, with the normal-load
 contribution cancelled by symmetry rather than by calibration.
@@ -18,6 +18,8 @@ shear adds. The algorithm:
 5. Subtract the perspective leak (self-calibrated from straight presses) and tare.
 For a thin gel bonded to acrylic the scale is exact in linear elasticity:
 `F_t = (G/h) * integral(u dA)`, with `G ~ E/3`.
+
+![alt text](illustration.png)
 
 ## Setup
 
